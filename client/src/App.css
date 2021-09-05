@@ -1,0 +1,370 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*    login    and   sign uo   */
+
+.auth_bg {
+    /* background-image: url("./assets/authBg.png"); */
+    background-image: linear-gradient(to right , rgb(85, 144, 85),rgb(175, 231, 70));
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center center;
+    height : 100vh;
+    width: 100vw;
+}
+
+.auth_user_img_wrapper {
+    width: 100%;
+}
+
+.auth_user_img {
+    height : 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.auth_input_wrapper {
+    display: block;
+    overflow: hidden;
+    
+}
+.auth_input{
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255 , 0.7);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    
+}
+.auth_input:focus{
+    outline: none;
+    
+}
+
+.auth_button {
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: white;
+    color :rgb(85, 144, 85);
+    font-weight: 700;
+    width : 225px;
+    border : none;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+.auth_link {
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color :rgb(248, 245, 245);
+}
+ /* nav */
+
+ #nav_n_search_wrapper {
+     width : 35vw;
+     background-color: rgb(239, 239, 239);
+     min-width: 270px;
+ }
+
+.nav_wrapper {
+    overflow: hidden;
+} 
+
+.email_search {
+    width : 29vw ;
+    height: 30px;
+    min-width: 225px;
+    border-radius: 20px ;
+    border-color:rgb(239, 239, 239) ;
+    border-style: none;
+    padding-left: 35px;
+    padding-right: auto;
+    margin-left:5px ;
+    margin-right: auto;
+   
+    overflow: hidden;
+    display: block;
+}
+
+#hrForSpace {
+    color: rgb(239, 239, 239);
+    padding-bottom: 10px;
+    background-color: rgb(239, 239, 239);
+    width: 0;
+}
+
+#nav_img {
+    width: 55px;
+    /* padding-top : 10px;
+    padding-bottom: 10px;
+    padding : 10px; */
+   
+    margin-left : 10px;
+    float: left;
+}
+
+
+#nav_username {
+ float: left;
+ padding: 0;
+ margin:0;
+ font-size: 20px;
+ padding: 15px 0 5px 8px;
+}
+
+#nav_searchicon {
+    height:17px;
+    margin-top: -24px;
+    margin-left :13px;
+    position: absolute;
+}
+
+/*  searched user */
+
+
+#search_user_nested_wrapper {
+    display:block;
+    overflow: hidden;
+}
+
+#search_user_img {
+    height:55px; 
+    float:left;
+}
+#search_user_name {
+    float : left;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*   New room component */
+
+#newRoom_wrapper {
+    display: block;
+    overflow: hidden;
+
+}
+
+#newRoom_chatButton {
+    background-color: rgb(186, 243, 169);
+    font-size: 16px;
+    width:50%;
+    border: rgb(239, 239, 239);
+    border-color : 3px;
+    border-style: solid;
+}
+
+#newRoom_chatButton:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#newRoom_closeButton:hover{
+    background-color: rgb(255, 255, 255);
+}
+#newRoom_closeButton {
+    background-color: rgb(186, 243, 169);
+    border: rgb(239, 239, 239);
+    border-color : 3px;
+    border-style: solid;
+    font-size: 16px;
+    width:50%;
+}
+
+
+/* room list */
+
+.roomList_wrapper {
+    border-width: 1px;
+    border-color: rgb(239, 239, 239);
+    border-style: solid;
+    display:block;
+    overflow: hidden;
+}
+#roomList_button{
+    overflow: hidden;
+    display: block;
+    width : 100%;
+    background-color: white;
+    border-color: rgb(239, 239, 239);
+    border-style: none;
+    border-width: 0;
+
+}
+#roomList_button:hover {
+    background-color: rgb(239, 239, 239);
+}
+.roomList_button_img {
+    height:60px;
+    float: left;
+}
+#roomList_button_p {
+    float:left;
+   padding : 10px;
+   margin-top: 10px;
+   font-size: 16px;
+   font-weight: 100;
+}
+
+/* nav and room list and messagelist */
+
+.navAndRoomList {
+    float : left;
+    width: 35%;
+    min-width: 270px;
+    /* overflow: hidden; */
+    display: block;
+}
+.messageList{
+    float : left;
+    width: 65%;
+    
+    min-width: 340px;
+}
+.bodyParentWrapper {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+/* messages orientation */
+
+.messageList_wrapper {
+    height : 75vh;
+    overflow:hidden;
+    overflow-y: scroll;
+    display: block;
+    background-image: url("./assets/bgImg.png");
+}
+
+.from_user {
+  
+    
+    display: block;
+    overflow: hidden;
+}
+ 
+.from_user p {
+    display: block;
+    margin-left : auto; 
+    width: fit-content;
+    padding : 5px 10px 5px 10px;
+    background-color: rgb(217, 255, 179);
+    margin : 3px 3px 3px auto;
+    border-radius: 8px;
+}
+
+.from_other_user p {
+    width: fit-content;
+    background-color: white;
+    margin : 3px;
+    padding : 5px 10px 5px 10px;
+    border-radius: 8px;
+}
+/*   send Message */
+.send_message_wrapper{
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    overflow:hidden;
+    display: block;
+}
+.send_message_input {
+    width : 80%;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height : 50px;
+    border-color: rgb(239, 239, 239);
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left : 10px;
+    font-size: 18px;
+}
+
+/*   message list header  */
+
+.messageList_header_img {
+    width : 55px;
+}
+.messageList_header_wrapper {
+    width : 100%;
+    background-color: rgb(239, 239, 239);
+    border-color: rgb(216, 213, 213);
+    border-width: 1px;
+    border-style: solid;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(211, 209, 209);
+  }
+
+
+  @media screen and (max-width: 775px) {
+      .messageList{
+          width : 64%;
+      }
+  }
+  @media screen and (max-width: 755px) {
+    .messageList{
+        width : 63%;
+    }
+}
+@media screen and (max-width: 734px) {
+    .messageList{
+        width : 62%;
+    }
+}
+@media screen and (max-width: 715px) {
+    .messageList{
+        width : 61%;
+    }
+}
+@media screen and (max-width: 697px) {
+    .messageList{
+        width : 60%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .messageList{
+        width : 59%;
+    }
+}
+@media screen and (max-width: 663px) {
+    .messageList{
+        width : 58%;
+    }
+}
+@media screen and (max-width: 647px) {
+    .messageList{
+        width : 57%;
+    }
+}
+@media screen and (max-width: 633px) {
+    .messageList{
+        width : 56%;
+    }
+    .navAndRoomList{
+        width : 34%;
+    }
+}
+@media screen and (max-width: 618px) {
+    .messageList{
+        width : 55%;
+    }
+}
